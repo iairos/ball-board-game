@@ -195,7 +195,7 @@ function createBalls() {
   var emptyPoss = findEmptyPos()
   if (!emptyPoss) return
   gBoard[emptyPoss.i][emptyPoss.j].gameElement = BALL
-  return renderCell(emptyPoss, BALL_IMG)
+  renderCell(emptyPoss, BALL_IMG)
   gBallsOnBoardCount++
 }
 
